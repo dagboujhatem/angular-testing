@@ -40,3 +40,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Ignore cypress screenshots & videos
+/cypress/screenshots/*
+/cypress/videos/*
+!cypress/screenshots/.gitkeep
+!cypress/videos/.gitkeep

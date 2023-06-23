@@ -1,4 +1,4 @@
-# AngularTesting
+# Angular Testing Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
 
@@ -21,6 +21,15 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Install the Cypress for E2E testing & Compoenents Testing : 
+
+Run `ng add @cypress/schematic` to install and configure the Angular Cypress project.
+
+You can run the E2E test using two way : 
+
+- `npx cypress run` – Non-interactive test runner. Runs the tests in a “headless” browser. This means the browser window is not visible.
+- `npx cypress open` - Opens a window where you can select which browser to use and which tests to run. The browser window is visible and it remains visible after completion.
 
 ## Further help
 

@@ -31,6 +31,12 @@ You can run the E2E test using two way :
 - `npx cypress run` – Non-interactive test runner. Runs the tests in a “headless” browser. This means the browser window is not visible.
 - `npx cypress open` - Opens a window where you can select which browser to use and which tests to run. The browser window is visible and it remains visible after completion.
 
+## Add a PWA in action : 
+
+Run the following command to configure the PWA in Angular application `sudo ng add @angular/pwa@13`. You can see [this tutorial](https://medium.com/ngconf/angular-pwa-install-and-configure-858dd8e9fb07) for more informations about this configuration.
+
+
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

@@ -9,7 +9,8 @@
     "test": "ng test",
     "e2e": "ng e2e",
     "cypress:open": "sudo npx cypress open",
-    "cypress:run": "sudo npx cypress run"
+    "cypress:run": "sudo npx cypress run",
+    "start-pwa": "ng build --prod && http-server -p 8080 -c-1 dist/angular-testing"
   },
   "private": true,
   "dependencies": {
